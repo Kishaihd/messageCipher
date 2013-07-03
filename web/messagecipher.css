@@ -1,0 +1,22 @@
+body {
+    background-color: #F8F8F8;
+    margin: 15px;
+}
+
+.box-container {   /*this is defining our box class.*/
+    display: inline-block;  /*display as a block!*/
+    border: 2px solid #ccc; /*we're defining three things for the border here! size, type, color.*/
+    background-color: white;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+.btn {
+    cursor: default !important; /* the !important discriptor means we want our thing to override bootstrap's */
+}
+
+textarea {
+    min-width: 300px; /* another unit of measure rather than px is em (I think) that's relative to the size of other things.*/
+    min-height: 150px;
+}
+
